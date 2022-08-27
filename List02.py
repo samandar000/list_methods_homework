@@ -8,5 +8,5 @@ def main(fruits,x,i):
     Returns:
         list: return answer
     """
-    fruits.append(x,i)
+    fruits.insert(x,i)
     return fruits
