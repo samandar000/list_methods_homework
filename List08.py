@@ -6,4 +6,10 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    return
+    i=0
+    while i < len(fruits):
+        if fruits[i]=='apple':
+            fruits == fruits.pop(i)
+        i+=1
+    return fruits
+    
