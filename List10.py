@@ -6,6 +6,6 @@ def main(list1):
     Returns:
         list: return answer
     """
-    list1 = list1.count(1) , list1.count(0)
+    list1 =  list1.count(1) , list1.count(0)
 
     return list1
