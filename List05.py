@@ -9,4 +9,5 @@ def main(numbers1, numbers2):
     Returns:
         list: return answer
     """
-    return
+    numbers1.extend(numbers2)
+    return numbers1
