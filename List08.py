@@ -6,8 +6,8 @@ def main(fruits):
     Returns:
         list: return answer
     """
-    list1=[]
     i=0
+    list1=[]
     while i < len(fruits):
         
         if fruits[i] != 'apple':
@@ -15,5 +15,4 @@ def main(fruits):
         
         i+=1
 
-    return fruits
-print(main(["apple", "apple", "apple", "apple", "kiwi"]))
+    return list1
