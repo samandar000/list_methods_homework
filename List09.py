@@ -6,10 +6,21 @@ def main(fruits):
     Returns:
         list: return answer
     """
+    k=0
+    y=0
     i=0
+    list1 = []
+    list2 = []
+
     while i < len(fruits):
         if fruits[i]=='apple':
-            return fruits.index(i)
+            list1 ==  list1.append(i)
+            
         i+=1
-    return fruits
-print(main(["apple", "apple", "apple", "apple", "kiwi"]))
+    while k < len(fruits):
+        if fruits[k] == 'apple':
+            list2 == list2.append(1)
+            y+=1
+        k+=1
+    list0 = [y]  + list1
+    return   list0
